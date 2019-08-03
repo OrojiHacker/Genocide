@@ -138,7 +138,7 @@ def Hacker():
              os.system("rm -rf A-Rat")
         def sqlmap():
              os.system("apt-get upgrade -y && apt-get update -y")
-             os.system("apt-gt install git")
+             os.system("apt-get install git")
              os.system("apt-get install python python2 -y")
              os.system("git clone https://github.com/sqlmapproject/sqlmap")
              os.system("cp -rf sqlmap ~")
