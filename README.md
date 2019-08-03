@@ -1,5 +1,3 @@
-# Genocide
-
 # Install
 
      sh install.sh
