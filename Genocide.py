@@ -38,8 +38,7 @@ def Brute():
                  os.system("figlet Facebook Brute Force")
                  os.system("python2 facebook")
         elif c == "00":
-              sys.exit()
-def Hacker():
+              sys.exit()def Hacker():
         os.system("figlet toolGenocide")
         print
         print G+"[01]> HPAS1369      [02]> Pntddos"
@@ -60,14 +59,14 @@ def Hacker():
         print "[00]> Exit"
         print
         A = raw_input("instsll : ")
-        def ipcs():
+def ipcs():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git -y")
              os.system("apt-get install python python2 -y")
              os.system("git clone https://github.com/kancotdiq/ipcs")
-        
-        def DDoS_Script ():
+        def DDoSScripts():
              os.system("apt-get upgrade -y && apt-get update -y")
+             os.system("apt-get install git -y")
              os.system("apt-get install python python2 -y")
              os.system("git clone https://github.com/vbooter/DDoS-Scripts")
 
@@ -116,22 +115,23 @@ def Hacker():
              os.system("curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh")
              os.system("cd ~")
              os.system("sh metasploit.sh")
-        
+
+
         def spammer():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git -y")
              os.system("apt-get install python python2 -y")
              os.system("git clone https://github.com/Noxturnix/Spammer-Grab.git")
-             os.system("cp -rf Spammer-Grab ~")                                                                                                           os.system("rm -rf Spammer-Grab")
+             os.system("cp -rf Spammer-Grab ~")
+             os.system("rm -rf Spammer-Grab")
              os.system("pip2 install requests")
-
-
-        def arat():
+def arat():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git -y")
              os.system("apt-get install python python2 -y")
              os.system("git clone https://github.com/Xi4u7/A-Rat")
-             os.system("cp -rf A-Rat ~")                                                                                                                  os.system("rm -rf A-Rat")
+             os.system("cp -rf A-Rat ~")
+             os.system("rm -rf A-Rat")
         def sqlmap():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-gt install git")
@@ -179,7 +179,7 @@ def Hacker():
              os.system("git clone https://github.com/evait-security/weeman.git")
              os.system("cp -rf weeman ~")
              os.system("rm -rf weeman")
-        def websploit():
+def websploit():
              os.system('apt update && apt upgrade')
              os.system('apt install git python2')
              os.system('pip2 install scapy')
@@ -198,7 +198,7 @@ def Hacker():
              os.system('apt install python2 git')
              os.system('pip2 install requests')
              os.system('git clone https://github.com/reverse-shell/routersploit')
-             os.system('mv routersploit ~;cd ~/routersploit;pip2 install -r requirements.txt;termux-fix-shebang rsf.p                       >
+             os.system('mv routersploit ~;cd ~/routersploit;pip2 install -r requirements.txt;termux-fix-shebang rsf.p>')
         def blackhydra():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git -y")
@@ -218,7 +218,8 @@ def Hacker():
              os.system("apt-get install git -y")
              os.system("git clone https://github.com/Hax4us/Nethunter-In-Termux.git")
              os.system("cp -rf  Nethunter-In-Termux ~ && rm -rf Nethunter-In-Termux")
-             os.system("cd ~/Nethunter-In-Termux && ./kalinethunter")def emailbomb():
+             os.system("cd ~/Nethunter-In-Termux && ./kalinethunter")
+        def emailbomb():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git python2 -y")
              os.system("git clone https://github.com/Ha3MrX/Emailbomb.git")
@@ -234,7 +235,7 @@ def Hacker():
              os.system("git clone https://github.com/cyweb/hammer.git")
              os.system("mv hammer ~")
              os.system("chmod 7 ~/hammer.py")
-        def social():
+def social():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git python -y")
              os.system(" git clone https://github.com/UndeadSec/SocialFish.git")
@@ -245,14 +246,16 @@ def Hacker():
 
         def santet():
              os.system("apt-get upgrade -y && apt-get update -y")
-             os.system("apt-get install python python2 git")                                                                                              os.system("git clone https://github.com/Gameye98/santet-online.git")
+             os.system("apt-get install python python2 git")
+             os.system("git clone https://github.com/Gameye98/santet-online.git")
              os.system("mv santet-online ~")
         def xattacker():
              os.system('apt update && apt upgrade')
              os.system('apt install git perl')
              os.system('cpnm install HTTP::Request')
              os.system('cpnm install LWP::Useragent')
-             os.system('git clone https://github.com/Moham3dRiahi/XAttacker')                                                                             os.system('mv XAttacker ~')
+             os.system('git clone https://github.com/Moham3dRiahi/XAttacker')
+             os.system('mv XAttacker ~')
         def wpscan():
              os.system('apt update && apt upgrade')
              os.system('apt install git ruby curl')
@@ -260,7 +263,8 @@ def Hacker():
              os.system('mv wpscan ~ && cd ~/wpscan')
              os.system('gem install bundle && bundle config build.nokogiri --use-system-libraries && bundle install &>')
         def mimin14():
-             os.system("clear")                                                                                                                           os.system("pkg install python2 -y")
+             os.system("clear")
+             os.system("pkg install python2 -y")
              os.system("pkg install git -y")
              os.system("git clone https://github.com/OrojiHacker/mimin14")
         if A == "1" or A == "01":
@@ -272,20 +276,22 @@ def Hacker():
         elif A == "3" or A == "03":
               optiva()
               Hacker()
-        elif A == "4" or A == "04":
+elif A == "4" or A == "04":
               metasploit()
               Hacker()
         elif A == "5" or A == "05":
               spammer()
               Hacker()
-        elif A == "6" or A == "06":                                                                                                                        arat()
+        elif A == "6" or A == "06":
+              arat()
               Hacker()
         elif A == "7" or A == "07":
               sqlmap()
               Hacker()
         elif A == "8" or A == "08":
               vbug()
-              Hacker()                                                                                                                               elif A == "9" or A == "09":
+              Hacker()
+        elif A == "9" or A == "09":
               redhawk()
               Hacker()
         elif A == "10":
@@ -293,7 +299,8 @@ def Hacker():
               Hacker()
         elif A == "11":
               blackhydra()
-              Hacker()                                                                                                                               elif A == "12":
+              Hacker()
+        elif A == "12":
               youtube()
               Hacker()
         elif A == "13":
@@ -332,7 +339,7 @@ def Hacker():
         elif A == "24":
               xshell()
               Hacker()
-        elif A == "25":
+       elif A == "25":
               xattacker()
               Hacker()
         elif A == "26":
@@ -342,7 +349,7 @@ def Hacker():
               mimin14()
               Hacker()
         elif A == "28":
-              DDoS_Scripts()
+              DDoS-Scripts()
               Hacker()
         elif A == "29":
               BT()
@@ -351,7 +358,8 @@ def Hacker():
               ipcs()
               Hacker()
         elif A == "00":
-              sys.exit()def BB():
+              sys.exit()
+def BB():
         print Y+"BB"
         os.system("clear")
         os.system("figlet BB")
@@ -382,7 +390,8 @@ def Hacker():
              print (A - B)
              timeout(5)
              BB()
-        def e():                                                                                                                                          os.system("clear")
+        def e():
+             os.system("clear")
              os.system("figlet *")
              A = input("Number :")
              B = input("Number :")
@@ -390,7 +399,8 @@ def Hacker():
              timeout(5)
              BB()
         def r():
-             os.system("clear")                                                                                                                           os.system("figlet /")
+             os.system("clear")
+             os.system("figlet /")
              A = input("Number :")
              B = input("Number :")
              print (A / B)
@@ -407,7 +417,8 @@ def Hacker():
         elif c == "00":
             sys.exit()
         else:
-             BB()def Genocide():
+             BB()
+def Genocide():
       os.system("clear")
       print R+"      ooooooooooooooooo   "
       print R+"      ooooooooooooooooo   "
@@ -462,6 +473,7 @@ def Hacker():
             print f+"gg"
             Brute()
       elif A == "00":
-           sys.exit()                                                                                                                              else:
+           sys.exit()
+      else:
           Genocide()
 Genocide()
