@@ -38,37 +38,41 @@ def Brute():
                  os.system("figlet Facebook Brute Force")
                  os.system("python2 facebook")
         elif c == "00":
-              sys.exit()def Hacker():
-        os.system("figlet toolGenocide")
-        print
-        print G+"[01]> HPAS1369      [02]> Pntddos"
-        print "[03]> Optiva        [04]> Metasploit"
-        print "[05]> Spammer-grab  [06]> A-Rat"
-        print "[07]> SQLMap        [08]> Vbug"
-        print "[09]> RedHawk       [10]> FB brute"
-        print "[11]> Black Hydra   [12]> Youtube"
-        print "[13]> Weeman        [14]> WebSploit"
-        print "[15]> Xerxes        [16]> RouterSploit"
-        print "[17]> Ubuntu-Termux [18]> Kali-Termux"
-        print "[19]> Emalibomb     [20]> DosThunber"
-        print "[21]> Hammer        [22]> Social Fish"
-        print "[23]> santet-online [24]> Xshell"
-        print "[25]> XAttacker     [26]> WPScan"
-        print "[27]>mimin          [28]>DDoSScripts"
-        print "[29]>fakecall       [30]>ipcs"
-        print "[00]> Exit"
-        print
-        A = raw_input("instsll : ")
-def ipcs():
-             os.system("apt-get upgrade -y && apt-get update -y")
-             os.system("apt-get install git -y")
-             os.system("apt-get install python python2 -y")
-             os.system("git clone https://github.com/kancotdiq/ipcs")
+                 sys.exit()
+def Hacker():
+	os.system("figlet toolGenocide")
+      	print
+       	print G+"[01]> HPAS1369      [02]> Pntddos"
+       	print "[03]> Optiva        [04]> Metasploit"
+       	print "[05]> Spammer-grab  [06]> A-Rat"
+       	print "[07]> SQLMap        [08]> Vbug"
+      	print "[09]> RedHawk       [10]> FB brute"
+      	print "[11]> Black Hydra   [12]> Youtube"
+       	print "[13]> Weeman        [14]> WebSploit"
+       	print "[15]> Xerxes        [16]> RouterSploit"
+       	print "[17]> Ubuntu-Termux [18]> Kali-Termux"
+    	print "[19]> Emalibomb     [20]> DosThunber"
+       	print "[21]> Hammer        [22]> Social Fish"
+       	print "[23]> santet-online [24]> Xshell"
+       	print "[25]> XAttacker     [26]> WPScan"
+       	print "[27]>mimin          [28]>DDoSScripts"
+       	print "[29]>fakecall       [30]>ipcs"
+       	print "[00]> Exit"
+       	print
+       	A = raw_input("instsll : ")
+
+	def ipcs():
+	    os.system("apt-get upgrade -y && apt-get update -y")
+            os.system("apt-get install git -y")
+            os.system("apt-get install python python2 -y")
+            os.system("git clone https://github.com/kancotdiq/ipcs")
+
+
         def DDoSScripts():
-             os.system("apt-get upgrade -y && apt-get update -y")
-             os.system("apt-get install git -y")
-             os.system("apt-get install python python2 -y")
-             os.system("git clone https://github.com/vbooter/DDoS-Scripts")
+	    os.system("apt-get upgrade -y && apt-get update -y")
+            os.system("apt-get install git -y")
+            os.system("apt-get install python python2 -y")
+            os.system("git clone https://github.com/vbooter/DDoS-Scripts")
 
 
         def BT():
@@ -125,7 +129,7 @@ def ipcs():
              os.system("cp -rf Spammer-Grab ~")
              os.system("rm -rf Spammer-Grab")
              os.system("pip2 install requests")
-def arat():
+	def arat():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git -y")
              os.system("apt-get install python python2 -y")
@@ -179,7 +183,7 @@ def arat():
              os.system("git clone https://github.com/evait-security/weeman.git")
              os.system("cp -rf weeman ~")
              os.system("rm -rf weeman")
-def websploit():
+	def websploit():
              os.system('apt update && apt upgrade')
              os.system('apt install git python2')
              os.system('pip2 install scapy')
@@ -235,14 +239,13 @@ def websploit():
              os.system("git clone https://github.com/cyweb/hammer.git")
              os.system("mv hammer ~")
              os.system("chmod 7 ~/hammer.py")
-def social():
+	def social():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git python -y")
              os.system(" git clone https://github.com/UndeadSec/SocialFish.git")
              os.system("mv SocialFish ~")
              os.system("cd ~/SocialFish")
              os.system("pip install -r requirements.txt")
-
 
         def santet():
              os.system("apt-get upgrade -y && apt-get update -y")
@@ -271,12 +274,12 @@ def social():
             hpas()
             Hacker()
         elif A == "2" or A == "02":
-              pntddos()
-              Hacker()
+             pntddos()
+             Hacker()
         elif A == "3" or A == "03":
-              optiva()
-              Hacker()
-elif A == "4" or A == "04":
+             optiva()
+             Hacker()
+	elif A == "4" or A == "04":
               metasploit()
               Hacker()
         elif A == "5" or A == "05":
@@ -339,7 +342,7 @@ elif A == "4" or A == "04":
         elif A == "24":
               xshell()
               Hacker()
-       elif A == "25":
+        elif A == "25":
               xattacker()
               Hacker()
         elif A == "26":
@@ -349,7 +352,7 @@ elif A == "4" or A == "04":
               mimin14()
               Hacker()
         elif A == "28":
-              DDoS-Scripts()
+              DDoSScripts()
               Hacker()
         elif A == "29":
               BT()
@@ -446,34 +449,47 @@ def Genocide():
       print "[00]Exit"
       A = raw_input ("[@]>>>>>> :")
       if A == "1" or A == "01":
-          Hacker()
+         Hacker()
       elif A == "2" or A  == "02":
-            os.system("python ip.py")
-            timeout(3)
-            os.system("figlet Genocide- DDOS")
-            ip = raw_input("IP Address : ")
-            port = raw_input("Port       : ")
-            packet =raw_input("Packet     : ")
-            os.system("python2 14-DDOS.py %s %s %s" % (ip, port, packet))
+		try:
+           		os.system("python ip.py")
+          	 	timeout(3)
+     	        	os.system("figlet Genocide- DDOS")
+          	      	ip = raw_input("IP Address : ")
+          		port = raw_input("Port       : ")
+      	 		packet =raw_input("Packet     : ")
+                	os.system("python2 14-DDOS.py %s %s %s" % (ip, port, packet))
+		except:
+			print ""
+
       elif A == "3" or A == "03":
-            os.system("php BT.php")
+            os.system ("php BT.php")
+
       elif A == "4" or A == "04":
-            BB()
+           BB()
+
       elif A == "5" or A == "05":
-            os.system("clear")
-            os.system("figlet Genocide- DDOS")
-            ip = raw_input("IP Address : ")
-            port = raw_input("Port       : ")
-            packet =raw_input("Packet     : ")
-            os.system("python2 14-DDOS.py%s %s %s" % (ip, port, packet))
+		try:
+           		os.system("clear")
+   	        	os.system("figlet Genocide- DDOS")
+        	        ip = raw_input("IP Address : ")
+          	        port = raw_input("Port       : ")
+        	        packet = raw_input("Packet     : ")
+         	        os.system("python2 14-DDOS.py %s %s %s" % (ip, port, packet))
+		except:
+			print ""
+
       elif A == "6" or A == "06":
-            wphunter = raw_input("wphunter :")
-            os.system("php wphunter.php %s" % (wphunter))
+		try:
+           		wphunter = raw_input("wphunter :")
+          	        os.system("php wphunter.php %s" % (wphunter))
+		except:
+		   print ""
       elif A == "7" or A == "07":
-            print f+"gg"
-            Brute()
-      elif A == "00":
-           sys.exit()
+           print f+"gg"
+           Brute()
+      elif A == "00" or A == "0":
+          sys.exit()
       else:
           Genocide()
 Genocide()
