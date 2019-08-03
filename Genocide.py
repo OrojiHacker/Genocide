@@ -64,8 +64,10 @@ def Hacker():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git -y")
              os.system("apt-get install python python2 -y")
-             os.system("git clone https://github.com/kancotdiq/ipcs")                                                                                def DDoSScripts():
-             os.system("apt-get upgrade -y && apt-get update -y")                                                                                         os.system("apt-get install git -y")
+             os.system("git clone https://github.com/kancotdiq/ipcs")
+        
+        def DDoS_Script ():
+             os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install python python2 -y")
              os.system("git clone https://github.com/vbooter/DDoS-Scripts")
 
@@ -267,7 +269,8 @@ def Hacker():
               Hacker()
         elif A == "3" or A == "03":
               optiva()
-              Hacker()elif A == "4" or A == "04":
+              Hacker()
+        elif A == "4" or A == "04":
               metasploit()
               Hacker()
         elif A == "5" or A == "05":
@@ -320,7 +323,8 @@ def Hacker():
               Hacker()
         elif A == "22":
               social()
-              Hacker()elif A == "23":
+              Hacker()
+        elif A == "23":
               santet()
               Hacker()
         elif A == "24":
@@ -336,7 +340,7 @@ def Hacker():
               mimin14()
               Hacker()
         elif A == "28":
-              DDoS-Scripts()
+              DDoS_Scripts()
               Hacker()
         elif A == "29":
               BT()
