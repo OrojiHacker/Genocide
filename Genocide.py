@@ -115,7 +115,9 @@ def Hacker():
              os.system("apt-get install curl -y")
              os.system("curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh")
              os.system("cd ~")
-             os.system("sh metasploit.sh")def spammer():
+             os.system("sh metasploit.sh")
+        
+        def spammer():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git -y")
              os.system("apt-get install python python2 -y")
