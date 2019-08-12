@@ -115,12 +115,10 @@ def Hacker():
 
         def metasploit():
              os.system("apt-get upgrade -y && apt-get update -y")
-             os.system("apt-get install curl -y")
-             os.system("curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh")
-             os.system("cd ~")
-             os.system("sh metasploit.sh")
-
-
+             os.system("apt-get install git -y")
+             os.system("git clone https://github.com/vaimpier-ritik/Metasploit-Installation")
+             os.system("cd Metasploit-Installation && chmod +x * && ./metasploit.sh")
+             os.system("cd .. && rm -rf Metasploit-Installation")
         def spammer():
              os.system("apt-get upgrade -y && apt-get update -y")
              os.system("apt-get install git -y")
